@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="bg-gray-50">
+    <div class="flex items-center justify-center min-h-screen bg-white">
+      <div
+        class="w-full lg:w-auto mx-5 border flex items-center gap-14 rounded-xl overflow-hidden shadow-xl shadow-blue-50 lg:shadow-gray-300"
+      >
+        <div class="px-6 py-8 lg:py-0 lg:pr-0 lg:pl-14 w-full lg:w-[350px]">
+          <h1
+            class="text-center lg:text-left text-2xl lg:text-lg my-12 lg:mb-8 font-semibold"
+          >
+            Register!
+          </h1>
+          <form
+            method="post"
+            action="#"
+            class="flex pb-8 flex-col gap-8 lg:gap-4"
+          >
+            <div>
+              <label class="block mb-2" for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="p-1 w-full border border-gray-300 rounded-md"
+              />
+            </div>
+            <div>
+              <label class="block mb-2" for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="p-1 w-full border border-gray-300 rounded-md"
+              />
+            </div>
+            <div>
+              <label class="block mb-2" for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="p-1 w-full border border-gray-300 rounded-md"
+              />
+            </div>
+            <div>
+              <label class="block mb-2" for="password_confirmation"
+                >Confirm Password</label
+              >
+              <input
+                type="password"
+                name="password_confirmation"
+                id="password_confirmation"
+                class="p-1 w-full border border-gray-300 rounded-md"
+              />
+            </div>
+            <div class="flex flex-col lg:flex-row items-center gap-4 mt-4">
+              <button
+                class="w-full lg:w-auto px-6 py-2 bg-blue-500 rounded-xl text-white font-semibold hover:bg-blue-600 duration-200"
+              >
+                Register
+              </button>
+              <a class="text-xs hover:text-blue-500 duration-200" href="#"
+                >Already Registered?</a
+              >
+            </div>
+          </form>
+        </div>
+        <div class="hidden lg:block group relative overflow-hidden">
+          <div
+            class="absolute top-0 bottom-0 right-0 w-full bg-black opacity-0 group-hover:opacity-10 duration-200 z-20"
+          ></div>
+          <img
+            src="./images/login-home.jpg"
+            alt=""
+            width="400"
+            class="group-hover:scale-105 duration-500"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
